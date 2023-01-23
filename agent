@@ -1,14 +1,23 @@
 pipeline {
-    agent {
-        label 'pravalika'
-    }
-    stages{
 
-        stages('hello'){
-          steps {
-            echo 'hello world'
-          }
-        }
+  agent {
+    label 'ansible'
+  }
+
+  stages {
+
+    stage('Hello') {
+      steps {
+        echo 'Hello World'
+      }
     }
+
+  }
+
+  post {
+    always {
+      echo "sending email"
+    }
+  }
 
 }
