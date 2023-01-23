@@ -1,0 +1,14 @@
+pipeline {
+    agent {
+        label 'pravalika'
+    }
+    stages{
+
+        stages('hello'){
+          steps {
+            echo 'hello world'
+          }
+        }
+    }
+
+}
