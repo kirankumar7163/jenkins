@@ -25,9 +25,9 @@ pipeline {
 @Library('roboshop') _
 
 pipeline {
-  agent any
+  agent none
   stages {
-    stage('test') {
+    stage ('test') {
       steps {
         script {
           test
