@@ -24,7 +24,7 @@ pipeline {
 
 @Library('roboshop')_
 
-piprline {
+pipeline {
   agent any
   stages {
     stage('test') {
