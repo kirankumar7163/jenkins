@@ -2,7 +2,7 @@
 //pipeline {
 //
 //  agent {
-//    label 'ansible'
+//    label 'JenkinsAgent'
 //  }
 //
 //  stages {
@@ -39,8 +39,6 @@
 
 @Library('roboshop') _
 
-env.abc = "Some Data"
-test1.new1()
 
 //pipeline {
 //  agent any
@@ -62,17 +60,6 @@ test1.new1()
 //          }
 //
 //          new1()
-//
-//
-//
-//        }
-//
-//        script {
-//          print "abc = ${abc}"
-//        }
-//
-//      }
-//    }
 //
 //    stage('test2') {
 //      steps {
