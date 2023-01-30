@@ -3,7 +3,7 @@
     config: "{{ lookup('file', 'templates/folder.xml') }}"
     name: "{{item}}"
     url: http://54.162.124.1:8080
-    user: admin
+    user: Admin
     password: "{{jenkins_password}}"
   loop: "{{ folders }}"
 
