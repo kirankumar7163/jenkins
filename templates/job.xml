@@ -17,7 +17,7 @@
             <configVersion>2</configVersion>
             <userRemoteConfigs>
                 <hudson.plugins.git.UserRemoteConfig>
-                    <url>https://github.com/kirankumar7163/{{item.name}}</url>
+                    <url>https://github.com/kirankumar7163/frontend</url>
                 </hudson.plugins.git.UserRemoteConfig>
             </userRemoteConfigs>
             <branches>
@@ -29,7 +29,7 @@
             <submoduleCfg class="empty-list"/>
             <extensions/>
         </scm>
-        <scriptPath>Jenkinsfile</scriptPath>
+        <scriptPath>jenkinsfile</scriptPath>
         <lightweight>true</lightweight>
     </definition>
     <triggers/>
