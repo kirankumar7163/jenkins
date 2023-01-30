@@ -1,6 +1,6 @@
 - name: Create Config file
   ansible.builtin.template:
-    src: s-job.xml
+    src: job.xml
     dest: /tmp/s-job.xml
 
 - name: Create Job
