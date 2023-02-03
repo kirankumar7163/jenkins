@@ -8,5 +8,5 @@
   loop: "{{ folders }}"
 
 - name: Create Pipeline Jobs
-  ansible.builtin.include_tasks: multi.pipeline.yml
+  ansible.builtin.include_tasks: pipeline.yml
   loop: "{{ ci_pipeline_jobs }}"
