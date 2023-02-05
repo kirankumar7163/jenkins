@@ -1,4 +1,4 @@
-IP=$(aws ec2 describe-instances --filters "Name=tag:Name,Values=Jenkins-master" --query 'Reservations[*].Instances[*].PublicIpAddress' --output text)
+IP=$(aws ec2 describe-instances --filters "Name=tag:Name,Values=Jenkinsmaster" --query 'Reservations[*].Instances[*].PublicIpAddress' --output text)
 
 echo '
 {
